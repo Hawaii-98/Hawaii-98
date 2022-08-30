@@ -1,0 +1,10 @@
+一、线性表的顺序存储结构
+
+定义一个线性表结构
+typedef struct
+{
+    ElemType data[MAXSIZE];
+    int length;
+} SqList;                    //与上面的类似，定义一个结构体类型，在下文中可以直接用SqList来定义结构体
+
+
